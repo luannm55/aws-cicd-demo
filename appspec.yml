@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: ./aws-cicd-demo.war
+  - source: /target/aws-cicd-demo.war
     destination: /opt/tomcat
 hooks:
   BeforeInstall:
