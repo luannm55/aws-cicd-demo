@@ -1,11 +1,11 @@
 version: 0.0
 os: linux
 files:
-  - source: /index.html
-    destination: /var/www/html/
+  - source: ./aws-cicd-demo.war
+    destination: /opt/tomcat
 hooks:
   BeforeInstall:
-    - location: scripts/install_dependencies
+    - location: echo "Should install tomcat"
       timeout: 300
       runas: root
     - location: scripts/start_server
