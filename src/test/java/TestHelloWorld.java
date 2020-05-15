@@ -24,6 +24,6 @@ public class TestHelloWorld {
 
     @Test
     public void dummyTest2(){
-        assertEquals("2","2");
+        assertEquals("1","2");
     }
 }
