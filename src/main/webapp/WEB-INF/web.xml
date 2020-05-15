@@ -5,11 +5,7 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
     <servlet>
-        <servlet-name>sayHello</servlet-name>
+        <servlet-name>HelloWorld</servlet-name>
         <servlet-class>HelloWorld</servlet-class>
     </servlet>
-    <servlet-mapping>
-        <servlet-name>sayHello</servlet-name>
-        <url-pattern>/HelloWorld</url-pattern>
-    </servlet-mapping>
 </web-app>
